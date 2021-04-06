@@ -1,0 +1,315 @@
+body{
+ width: 100%;
+ overflow-x: hidden;
+}
+nav {
+ position: fixed;
+ top:0;
+ left:0;
+ background: white;
+ padding: 70px;
+ width: 100%;
+z-index: 1000; 
+}
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+}
+li {
+display: inline;
+}
+.logo img{
+ position: absolute;
+ top: 2.5em;
+ left: 2em;
+ width: 6%;	
+}
+.section{
+ width: 100%;
+ position: relative;
+ height: 100vh;
+ display: flex;
+ overflow: hidden;
+}
+.button1_section{
+ display: inline-flex;
+ position: absolute;
+ padding: 50px;
+ width: 50%;
+ background-color: transparent;
+ top: 30em;
+ left: 2em;
+ z-index: 1;
+}
+.readmore{
+ color: white;
+ margin-left: 10px;
+}
+.readmore a{
+ text-decoration: none;
+ color: white;
+}
+.readmore a:hover{
+ color: tomato;
+}
+.button2 a{
+ background: gray;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ color: white;
+ padding: 12px;
+ font-size: 14px;
+ border-radius: 16px;
+ } 
+.button2 a:hover{
+  color: white;
+  background-color: #003547;
+  transition: 0.8s;
+ }
+.section h1{
+ font-size: 5em;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ color: white;
+ margin-left: 80px;
+ margin-top: 3em;
+ z-index: 1;
+ overflow: hidden;
+}
+.video-container{
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100vh;
+ overflow: hidden;
+}
+.section2{	
+ height: 100vh;
+ position: relative;
+ background-image: url('number1.jpeg');
+ background-repeat: no-repeat;
+ background-size: 95%;
+ top: 5em;
+ left: 2.5em;
+}
+.section2 h1{
+ font-size: 5em;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ color: white;
+ background: transparent;
+ margin-left: 40px;
+ margin-top: 1em;
+ overflow: hidden;
+}
+.button{
+ position: absolute;
+ top: 2em;
+ left: 67em;	
+ text-align: center;
+ padding: 25px;
+ background-color: tomato;
+ border-radius: 18px;
+}
+.button a{
+ text-decoration: none;
+ color: white;
+}
+.button a:hover{
+ color: white;
+ background-color: #003547;
+}
+.button2 {
+ text-align: center;	
+ width: 20%;
+ background-color: gray;
+ font-size: 15px;
+ border-radius: 8px;
+}
+.button2 a{
+ text-decoration: none;
+ color: white;
+}
+.button2 a:hover{
+ text-decoration: none;
+ background-color: #003547;
+}
+.read_more{
+ position: absolute;
+ top: 25em;
+ left: 4em;
+}
+.read_more a{
+ text-decoration: none;
+ color: white;
+}
+.read_more a:hover{
+ color: tomato;
+}
+hr a:hover{
+ color: tomato;
+}
+.section4{
+ position: relative;
+ height: 100vh;
+ background: tomato;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ top: 16em;
+ left: 0;
+}
+.form_section {
+ position: absolute;
+ top: 6em;
+ left: 38em;
+ width: 55%;
+ padding: 4px;
+ background-color: transparent;
+}
+input[type=text], select {
+ width: 80%;
+ padding: 22px 0px 20px 15px;
+ margin: 10px 0;
+ margin-left: 100px;
+ display: inline-block;
+ border: 1px solid transparent;
+ border-radius: 8px;
+ box-sizing: border-box;
+}
+textarea{
+ border-radius: 10px;
+ margin: 20px 0;
+ margin-left: 100px;
+ border: 1px solid transparent;
+ padding: 22px 0px 30px 15px;
+ font-family: 'Karelia', arial;
+ font-size: 14px
+}
+.tick_box{
+ font-family: 'Karelia', arial;
+ color: white;
+ font-size: 18px;
+ left: 100;
+
+}
+.checkbox{
+ margin-left: 100px;
+}
+button.get_in_touch {
+ margin-left: 100px;
+ margin-top: 8px;
+ padding: 10px;
+ font-family: 'Karelia', arial;
+ font-size: 15px;
+ background-color: #003547;
+ color: white;
+ border-radius: 12px;
+}
+button.get_in_touch:hover{
+ background-color: white;
+ color: lightslategray;
+ transition: 0.8s;
+}
+.Maria_Hiv{
+ position: absolute;	
+ color: #003547;
+ font-weight: 100;
+ font-family: 'Karelia', arial;
+ font-size: 15px;
+ top: 48em;
+ left: 0;
+}
+.Maria_Hiv a{
+ color: slategray;
+}
+.Tov_Ola{
+ position: absolute;	
+ color: #003547;
+ font-weight: 100;
+ font-family: 'Karelia', arial;
+ font-size: 15px;
+ top: 48em;
+ left: 45em;
+}
+.Tov_Ola a{
+ color: slategray ;
+}
+.section4 h4{
+ font-weight: 100;
+ font-family: 'Karelia', arial;
+ font-size: 20px;
+ color: white;
+ margin-top: 8em;
+ margin-left: 2em;
+}
+.ably_agree_link{
+ position: absolute;
+ font-family: 'Karelia', arial;
+ font-size: 18px;
+ top: 25.5em;
+ left: 8em;
+}
+.section4 h1{
+ position: absolute;
+ font-family: 'Karelia', arial;
+ font-weight: 100;
+ font-size: 46px;
+ color: white;
+ top: 5em;
+ left: 0.8em;
+}
+.email_last_part{
+ position: absolute;
+ top: 6em;
+ left: 53em;
+ width: 40%;
+ padding: 5px;
+ background-color: transparent;
+}
+.section7{
+ background-image: url('las.jpeg');
+ height: 45vh;
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ top: 24em;
+ left: 0;
+ overflow: hidden;
+}
+.section7 h1{
+ color: white;
+ margin-top: 2em;
+ margin-left: 2em;
+ font-size: 40px;
+}
+.email_last_part input[type=text], select {
+ width: 60%;
+ margin-top: 0;
+ margin-left: 0px;
+ display: inline-block;
+ border: 1px solid transparent;
+ border-radius: 8px;
+ box-sizing: border-box;
+}
+.email_last_part button.get_in_touch {
+ margin-left: 10px;
+ margin-top: 14px;
+ padding: 16px;
+ font-family: 'Karelia', arial;
+ font-size: 20px;
+ font-weight: 100;
+ background-color: red;
+ color: white;
+ border-radius: 12px;
+}
+.email_last_part button.get_in_touch:hover{
+ background-color: #003547;
+ color: white;
+ transition: 0.8s;
+}
+
+
